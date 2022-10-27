@@ -1,5 +1,6 @@
 #### HD-dataset 99% Test Simple
 ```
+---
 #loading dataset
 import pandas as pd
 import numpy as np
@@ -16,6 +17,8 @@ from sklearn.tree import DecisionTreeClassifier ##TREE
 #ensembling
 from sklearn.model_selection import cross_val_score
 from sklearn import tree
+---
+---
 data = pd.read_csv('heart.csv')
 def normalize(df):
     result = df.copy()
@@ -51,4 +54,5 @@ import graphviz
 dot_data = tree.export_graphviz(dt, out_file=None) 
 graph = graphviz.Source(dot_data) 
 graph
+---
 ```
