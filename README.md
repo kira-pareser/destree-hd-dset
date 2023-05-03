@@ -1,4 +1,6 @@
-#### HD-dataset 99% Test Simple
+#### Look stupid i'm uploaded this on readme
+#### Here is just my practice with Heart Desease-dataset 
+#### Additional some data pre-processing step that i need
 ```
 #loading dataset
 import pandas as pd
